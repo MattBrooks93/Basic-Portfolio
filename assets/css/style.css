@@ -1,20 +1,51 @@
-#header {
-	width: 980px;
-	height: 20px;
-	background-color: white;
-	float: right;
+body {
+	margin: auto;
+	background-color: aqua;
 }
 
+.container {
+	width: 960px;
+	margin: auto auto;
+}
 
-	
+.wrap {
+	width: 100%;
+	background-color: white;
+}
+
+header {
+	float: right;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: white;
+	padding: 30px;
 }
 
 h1 {
+	background-color: #4aaaa5;
 	color: white;
-	width: 15.67%;
-	height: 20px;
+	width: 200px;
+	height: 38px;
+	text-align: center;
+	margin: 0 0 0 0;
+	padding: 25px;
 }
 
-.matt-pic {
+img {
 	float: left;
+}
+
+h2 {
+	color: #4aaaa5;
+}
+
+p, a {
+	font-family: 'Ariel', 'Helvetica Neue', Helvetica, sans-serif
+}
+
+#main-bio {
+	background-color: white;
+	width: 960px;
+	margin: auto auto;
+	padding: 0px 20px 20px 20px;
+	line-height: 50px;
 }
