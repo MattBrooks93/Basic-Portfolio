@@ -131,6 +131,47 @@ input[type=text] {
 	height: 100px;
   }
   #formmargin {
-	  margin-top: 20px;
+	  margin-top: 18px;
 	  margin-bottom: 100px;
   }
+
+  .pic {
+	border: 1px solid #DDDDDD;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	margin-top: 25px;
+	
+ }
+ .tag {
+	float: left;
+	position: absolute;
+	left: 0px;
+	top: 125px;
+	width: 290px;
+	z-index: 1000;
+	background-color: #4aaaa5;
+	padding: 5px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: center;
+ }
+
+ .clear {
+	 clear: both;
+	 display: table;
+ }
+
+ #lowhr {
+	background-color: lightgrey;
+	height: 2px;
+	border: none;
+ }
+ .matt-pic {
+	 height: 400px;
+	 width: 260px;
+	 margin-right: 20px;
+ }
+ 
